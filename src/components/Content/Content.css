@@ -1,0 +1,21 @@
+.header {
+    background-color: rgb(164, 189, 98);
+    position: fixed;
+    width: 100vw;
+}
+.inner-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.editor {
+    border: 1px solid grey;
+    width: 40vw;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:calc(50% - 35vh);
+    padding: 15px;
+}
