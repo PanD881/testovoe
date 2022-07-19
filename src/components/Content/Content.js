@@ -76,7 +76,7 @@ export default class Content extends React.Component {
 
     componentDidUpdate() {
         let textStr = JSON.stringify(this.state)
-        let obj = JSON.parse(textStr)                          // for more readable text
+        let obj = JSON.parse(textStr)                          // for more readable text, also attribute merging is not done
         console.log(obj)
     }
 
